@@ -20,14 +20,16 @@ const Index = () => {
       duration: "1 minute",
       image: step1Templates,
       content: {
-        description: "Commencez par sélectionner le format parfait pour votre projet. Canva Express propose des milliers de templates professionnels.",
+        description: "Commencez par sélectionner le format parfait pour votre projet. Canva Express propose des milliers de templates professionnels classés par catégorie. Que vous créiez un post Instagram, une story, une publication Facebook ou un visuel LinkedIn, vous trouverez le template idéal en quelques secondes.",
         tips: [
-          "Parcourez les catégories : Posts Instagram, Stories, Facebook, LinkedIn",
-          "Utilisez la barre de recherche pour trouver rapidement un style spécifique",
-          "Filtrez par couleur, thème ou occasion",
-          "Prévisualisez avant de choisir en survolant les templates"
+          "Parcourez les catégories principales : Posts Instagram (1080x1080), Stories (1080x1920), Publications Facebook (940x788), Posts LinkedIn (1200x627)",
+          "Utilisez la barre de recherche intelligente : tapez 'promo', 'citation', 'annonce' pour des résultats ciblés",
+          "Filtrez par couleur dominante, thème (business, mode, food) ou occasion (Noël, été, promotion)",
+          "Prévisualisez en temps réel : survolez les templates pour voir les animations et effets",
+          "Consultez la section 'Populaires' pour voir ce qui fonctionne le mieux actuellement",
+          "Créez depuis une page blanche si vous voulez un contrôle total sur votre design"
         ],
-        astuce: "Astuce Pro : Les templates 'tendance' sont mis à jour chaque semaine !"
+        astuce: "Astuce Pro : Les templates 'tendance' sont mis à jour chaque semaine ! Consultez aussi les templates de marques célèbres pour vous inspirer."
       }
     },
     {
@@ -37,14 +39,17 @@ const Index = () => {
       duration: "1 minute",
       image: step2Customize,
       content: {
-        description: "Personnalisez votre message avec les outils de texte puissants de Canva Express.",
+        description: "Personnalisez votre message avec les outils de texte puissants de Canva Express. Le texte est l'élément le plus important de votre visuel - c'est lui qui transmet votre message ! Canva offre des centaines de polices professionnelles et des effets spectaculaires.",
         tips: [
-          "Double-cliquez sur n'importe quel texte pour le modifier",
-          "Changez la police en cliquant sur le menu déroulant",
-          "Ajustez la taille avec le curseur ou les raccourcis Ctrl +/-",
-          "Utilisez les effets de texte : ombres, contours, effets 3D"
+          "Double-cliquez sur n'importe quel texte pour le modifier instantanément - pas besoin de sélectionner d'outil",
+          "Changez la police : cliquez sur le nom de la police actuelle, explorez les catégories (Moderne, Élégante, Manuscrite, Audacieuse)",
+          "Ajustez la taille : utilisez le curseur dans la barre d'outils ou les raccourcis clavier Ctrl + pour agrandir, Ctrl - pour réduire",
+          "Modifiez l'alignement : gauche, centre, droite ou justifié selon votre composition",
+          "Ajoutez des effets spectaculaires : ombre portée, contour, fond de texte, effet néon, dégradé, courbe, 3D",
+          "Utilisez l'interlignage et l'espacement des lettres pour un rendu professionnel",
+          "Copiez le style d'un texte et appliquez-le à d'autres avec l'outil 'Copier le style'"
         ],
-        astuce: "Astuce Pro : Gardez maximum 2-3 polices différentes par design pour un look cohérent."
+        astuce: "Astuce Pro : Gardez maximum 2-3 polices différentes par design pour un look cohérent. Utilisez une police impactante pour les titres et une simple pour le texte."
       }
     },
     {
@@ -54,15 +59,19 @@ const Index = () => {
       duration: "1 minute",
       image: step3Elements,
       content: {
-        description: "Enrichissez votre design avec des éléments visuels captivants.",
+        description: "Enrichissez votre design avec des éléments visuels captivants. Les éléments graphiques rendent vos visuels plus attrayants et professionnels. Canva Express offre des millions d'éléments gratuits : icônes, illustrations, formes, stickers, photos et vidéos.",
         tips: [
-          "Cliquez sur 'Éléments' dans le menu latéral",
-          "Explorez les catégories : Formes, Lignes, Autocollants, Illustrations",
-          "Utilisez la recherche pour trouver des icônes spécifiques",
-          "Redimensionnez et repositionnez par glisser-déposer",
-          "Changez les couleurs des éléments pour matcher votre palette"
+          "Cliquez sur 'Éléments' dans le menu latéral gauche pour ouvrir la bibliothèque complète",
+          "Explorez les catégories : Formes géométriques, Lignes et flèches, Autocollants tendance, Illustrations vectorielles, Cadres photo, Graphiques",
+          "Utilisez la barre de recherche : tapez 'flèche', 'étoile', 'coeur' ou le thème de votre design",
+          "Filtrez par style : Ligne, Plat, Dessiné à la main, 3D, Vintage, Moderne",
+          "Redimensionnez facilement : cliquez et faites glisser les poignées d'angle (maintenez Shift pour garder les proportions)",
+          "Repositionnez par glisser-déposer, utilisez les touches directionnelles pour un placement précis",
+          "Changez les couleurs : sélectionnez l'élément, cliquez sur le carré de couleur et choisissez votre teinte",
+          "Ajustez la transparence pour créer des effets de superposition subtils",
+          "Utilisez les calques : amenez au premier plan ou arrière-plan selon vos besoins"
         ],
-        astuce: "Astuce Pro : Les éléments transparents créent de la profondeur et du dynamisme !"
+        astuce: "Astuce Pro : Les éléments transparents (opacité 20-40%) créent de la profondeur et du dynamisme ! Superposez des formes pour un effet moderne."
       }
     },
     {
@@ -72,14 +81,18 @@ const Index = () => {
       duration: "30 secondes",
       image: step2Customize,
       content: {
-        description: "Créez une identité visuelle cohérente avec la palette de couleurs.",
+        description: "Créez une identité visuelle cohérente avec la palette de couleurs. Les couleurs transmettent des émotions et renforcent votre message. Choisir les bonnes couleurs est crucial pour l'impact de votre visuel. Canva Express vous aide à créer des harmonies parfaites.",
         tips: [
-          "Cliquez sur n'importe quel élément puis sur le carré de couleur",
-          "Utilisez le sélecteur de couleur ou entrez un code HEX",
-          "Explorez les palettes suggérées basées sur votre template",
-          "Créez et sauvegardez votre propre palette de marque"
+          "Cliquez sur n'importe quel élément (texte, forme, fond) puis sur le carré de couleur dans la barre d'outils",
+          "Utilisez le sélecteur de couleur intuitif : faites glisser pour choisir la teinte et la saturation",
+          "Entrez un code couleur précis : HEX (#FF5733), RGB ou HSL si vous avez votre charte graphique",
+          "Explorez les palettes suggérées : Canva génère automatiquement des harmonies basées sur votre template",
+          "Testez les 'Couleurs du document' : ce sont les couleurs déjà présentes dans votre design",
+          "Créez votre kit de marque : sauvegardez votre palette (logo, primaire, secondaire, accent) pour la réutiliser",
+          "Utilisez l'outil pipette : cliquez pour prélever une couleur depuis une image de votre design",
+          "Appliquez des dégradés : sélectionnez 2-3 couleurs pour créer des effets modernes"
         ],
-        astuce: "Astuce Pro : Utilisez des couleurs complémentaires pour faire ressortir les éléments clés."
+        astuce: "Astuce Pro : Utilisez la règle 60-30-10 : 60% couleur dominante, 30% secondaire, 10% accent. Les couleurs complémentaires (opposées sur le cercle chromatique) font ressortir les CTA !"
       }
     },
     {
@@ -89,15 +102,19 @@ const Index = () => {
       duration: "30 secondes",
       image: step4Export,
       content: {
-        description: "Exportez votre création dans le format parfait pour vos besoins.",
+        description: "Exportez votre création dans le format parfait pour vos besoins. La dernière étape est cruciale : choisir le bon format garantit que votre visuel sera parfait partout où vous le publiez. Canva Express optimise automatiquement pour chaque plateforme.",
         tips: [
-          "Cliquez sur 'Télécharger' ou 'Partager' en haut à droite",
-          "Choisissez le format : PNG (qualité), JPG (léger), PDF (impression)",
-          "Ajustez la qualité d'export selon votre usage",
-          "Partagez directement sur les réseaux sociaux",
-          "Téléchargez en haute résolution pour l'impression"
+          "Cliquez sur le bouton violet 'Partager' en haut à droite de l'éditeur",
+          "Choisissez le format optimal : PNG (meilleure qualité, idéal pour web et réseaux sociaux), JPG (fichier plus léger, parfait pour l'emailing), PDF (impression professionnelle, documents)",
+          "PNG avec fond transparent : indispensable pour logos, stickers, overlays vidéo",
+          "Ajustez la qualité d'export : Standard (web), Haute qualité (réseaux sociaux), Impression (300 DPI pour flyers et affiches)",
+          "Téléchargez plusieurs pages en un seul PDF si vous avez créé un carrousel",
+          "Partagez directement : Instagram, Facebook, Twitter, LinkedIn, Pinterest - Canva optimise automatiquement",
+          "Programmez vos publications : utilisez l'outil de planification intégré pour poster au meilleur moment",
+          "Générez un lien de partage : parfait pour recueillir des avis avant de publier",
+          "Exportez en vidéo si vous avez utilisé des animations (MP4, jusqu'à 30 secondes)"
         ],
-        astuce: "Astuce Pro : PNG avec fond transparent est idéal pour les logos et overlays !"
+        astuce: "Astuce Pro : PNG avec fond transparent est idéal pour les logos et overlays ! JPG pour les photos et visuels sans transparence. Pour l'impression, choisissez toujours PDF en haute qualité."
       }
     }
   ];
@@ -194,7 +211,7 @@ const Index = () => {
             >
               <AccordionTrigger className="px-6 py-4 hover:no-underline group">
                 <div className="flex items-center gap-4 w-full">
-                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center text-primary-foreground font-bold text-lg">
+                  <div className="flex-shrink-0 w-12 h-12 rounded-full bg-primary flex items-center justify-center text-primary-foreground font-bold text-lg shadow-lg">
                     {index + 1}
                   </div>
                   <div className="flex-grow text-left">
@@ -257,7 +274,7 @@ const Index = () => {
             {quickTips.map((tip, index) => (
               <Card key={index} className="border-2 hover:border-primary transition-all duration-300 hover:shadow-lg">
                 <CardContent className="p-6 text-center space-y-4">
-                  <div className="w-16 h-16 mx-auto rounded-full bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+                  <div className="w-16 h-16 mx-auto rounded-full bg-primary flex items-center justify-center shadow-lg">
                     <tip.icon className="w-8 h-8 text-primary-foreground" />
                   </div>
                   <h3 className="font-bold text-lg">{tip.title}</h3>
