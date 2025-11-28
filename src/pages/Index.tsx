@@ -7,7 +7,8 @@ import canvaHero from "@/assets/canva-hero.jpg";
 import step1Templates from "@/assets/step1-templates.jpg";
 import step2Customize from "@/assets/step2-customize.jpg";
 import step3Elements from "@/assets/step3-elements.jpg";
-import step4Export from "@/assets/step4-export.jpg";
+import step4Color from "@/assets/step4-color.jpg";
+import step5Export from "@/assets/step5-export.jpg";
 
 const Index = () => {
   const [openItem, setOpenItem] = useState<string>("step1");
@@ -79,7 +80,7 @@ const Index = () => {
       title: "Étape 4 : Ajuster les Couleurs",
       icon: Sparkles,
       duration: "30 secondes",
-      image: step2Customize,
+      image: step4Color,
       content: {
         description: "Créez une identité visuelle cohérente avec la palette de couleurs. Les couleurs transmettent des émotions et renforcent votre message. Choisir les bonnes couleurs est crucial pour l'impact de votre visuel. Canva Express vous aide à créer des harmonies parfaites.",
         tips: [
@@ -100,7 +101,7 @@ const Index = () => {
       title: "Étape 5 : Télécharger & Partager",
       icon: Download,
       duration: "30 secondes",
-      image: step4Export,
+      image: step5Export,
       content: {
         description: "Exportez votre création dans le format parfait pour vos besoins. La dernière étape est cruciale : choisir le bon format garantit que votre visuel sera parfait partout où vous le publiez. Canva Express optimise automatiquement pour chaque plateforme.",
         tips: [
